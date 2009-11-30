@@ -47,7 +47,7 @@ plugin 'will_paginate', :git => 'git://github.com/mislav/will_paginate.git', :su
 # Install all gems
 gem 'RedCloth'
 gem 'haml'
-gem 'ruby-openid'
+gem 'ruby-openid', :lib => 'openid'
 gem 'nokogiri'
 
 # Initialize submodules
